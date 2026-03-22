@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "DJ Light"
+version = "1.0.0"
+id = "artifacts/dj-light"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22441
+
+[services.development]
+run = "pnpm --filter @workspace/dj-light run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/dj-light", "run", "build" ]
+publicDir = "artifacts/dj-light/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22441"
+BASE_PATH = "/"

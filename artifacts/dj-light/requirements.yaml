@@ -1,0 +1,32 @@
+packages:
+  "framer-motion": "For page transitions, scroll effects, and sophisticated layout animations"
+  "embla-carousel-react": "For the featured mixes carousel"
+  "lucide-react": "For iconography"
+
+images:
+  - path: "artifacts/dj-light/public/images/mix-1.png"
+    description: "Neon cyberpunk city street at night, glowing blue and pink lights, cinematic"
+    aspect_ratio: "1:1"
+  - path: "artifacts/dj-light/public/images/mix-2.png"
+    description: "Abstract glowing soundwaves in cyan and orange, dark background, electric energy"
+    aspect_ratio: "1:1"
+  - path: "artifacts/dj-light/public/images/mix-3.png"
+    description: "DJ mixer deck glowing in the dark with neon teal lights, macro photography"
+    aspect_ratio: "1:1"
+  - path: "artifacts/dj-light/public/images/mix-4.png"
+    description: "Abstract neon laser grid tunnel, retro outrun synthwave style, dark vibrant"
+    aspect_ratio: "1:1"
+  - path: "artifacts/dj-light/public/images/mix-5.png"
+    description: "Glowing neon palm trees synthwave style, dark moody sunset, orange and teal"
+    aspect_ratio: "1:1"
+  - path: "artifacts/dj-light/public/images/mix-6.png"
+    description: "Deep blue and purple liquid lighting, abstract smoke and neon, club atmosphere"
+    aspect_ratio: "1:1"
+  - path: "artifacts/dj-light/public/images/dj-portrait.png"
+    description: "Moody silhouette portrait of a DJ wearing headphones in a dark club lit by cyan and orange lasers"
+    aspect_ratio: "3:4"
+
+notes:
+  - Frontend-only React application using static data and mock hooks.
+  - Using Lucide for all icons.
+  - Implements a stunning dark neon aesthetic with Framer Motion animations.
